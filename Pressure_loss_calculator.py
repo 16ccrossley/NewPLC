@@ -39,7 +39,7 @@ mfr_value = st.number_input("Enter the Material's MFR (g/10 min)", value=10.0, s
 
 # Calculate viscosity from MFR (empirical relationship)
 n = 1  # This can be adjusted based on material properties (generally around 0.8-1.2)
-k = 1000  # Constant (can be fine-tuned)
+k = 1  # Constant (can be fine-tuned)
 viscosity = k / (mfr_value ** n)
 
 # Pressure loss calculation based on viscosity
