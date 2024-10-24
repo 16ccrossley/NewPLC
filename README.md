@@ -16,5 +16,5 @@ A simple Streamlit app template for you to modify!
 
    ```
    $ streamlit run streamlit_app.py
-   ```
-pip install openpyxl
+
+pip install openyxl
