@@ -1,2 +1,2 @@
 streamlit
-pip install openpyx1
+openpyx1
