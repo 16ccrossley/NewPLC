@@ -8,7 +8,7 @@ def load_material_data(file_path):
     return pd.read_excel(file_path)
 
 # Load the material database (upload your Excel file)
-file_path = 'material_database.xlsx'  # Replace with your Excel file path
+file_path = 'material_data.xlsx'  # Replace with your Excel file path
 material_data = load_material_data(file_path)
 
 # Title of the app
